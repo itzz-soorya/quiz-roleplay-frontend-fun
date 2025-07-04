@@ -1,5 +1,5 @@
-
 import { Button } from '../ui/button';
+import { Star } from 'lucide-react';
 
 export const Projects = () => {
   const projects = [
@@ -10,7 +10,7 @@ export const Projects = () => {
       gradient: "from-cyan-400 to-purple-500"
     },
     {
-      title: "AI Chat Application",
+      title: "AI Chat Application", 
       description: "Real-time chat application integrated with AI capabilities. Built with modern web technologies and machine learning APIs.",
       tech: ["React", "Socket.io", "Python", "OpenAI API"],
       gradient: "from-purple-400 to-pink-500"
